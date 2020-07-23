@@ -5,5 +5,5 @@ def join_nested_strings(src)
   src.each do |arr|
     arr.each { |word| final << word if word == word.to_s }
   end
-  p final.join(" ")
+  final.join(" ")
 end
